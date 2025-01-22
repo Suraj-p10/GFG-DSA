@@ -6,6 +6,20 @@ import java.util.*;
 
 
 // } Driver Code Ends
+/* node for linked list
+
+class Node {
+    int data;
+    Node next;
+
+    Node(int d) {
+        data = d;
+        next = null;
+    }
+}
+
+*/
+
 
 class Solution{
 
@@ -205,7 +219,6 @@ class Solution{
 
 
 
-
 //{ Driver Code Starts.
 
 class Node {
@@ -258,6 +271,8 @@ class GfG {
             Solution g = new Solution();
             Node res = g.addTwoLists(num1, num2);
             printList(res);
+
+            System.out.println("~");
         }
     }
 }
